@@ -1,0 +1,140 @@
+#home {
+  background-color: grey;
+  background-image: url("./bg_lp3.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#title {
+  text-align: center;
+  font-family:
+    Rum Raisin,
+    Arial,
+    sans-serif;
+  font-size: 48px;
+  color: Black;
+  margin-top: 50px;
+}
+
+#index {
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 600px;
+  height: 400px;
+  position: center;
+}
+
+#index ul {
+  padding: 0;
+  margin: 20px 0;
+  list-style: none;
+}
+
+#index li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#index li::before {
+  content: "•";
+  font-size: 32px;
+  margin-right: 10px;
+}
+
+#index a {
+  color: rgb(0, 0, 0);
+  font-family:
+    Rum Raisin,
+    Arial,
+    sans-serif;
+  font-size: 32px;
+}
+
+#pizza_bg {
+  background-image: url("./pizza_bg.jpg");
+  background-size: cover;
+}
+#container {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 600px;
+  height: auto;
+  padding: 20px;
+  position: relative; /* REQUIRED: Keeps the button locked to this box */
+
+  padding: 30px;
+  border: 4px solid #3498db; /* The border line */
+}
+
+#p_title {
+  text-align: center;
+  font-family:
+    Rum Raisin,
+    Arial,
+    sans-serif;
+  font-size: 30px;
+  color: Black;
+}
+
+#p_steps {
+  text-align: center;
+  font-family:
+    Rum Raisin,
+    Arial,
+    sans-serif;
+  font-size: 20px;
+  color: Black;
+}
+
+#p_desc {
+  text-align: center;
+  font-family:
+    Rum Raisin,
+    Arial,
+    sans-serif;
+  font-size: 20px;
+  color: Black;
+}
+
+#p_ol {
+  font-family:
+    Rum Raisin,
+    Arial,
+    sans-serif;
+  font-size: 20px;
+  color: Black;
+}
+
+#btn_p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 180px;
+  height: 50px;
+
+  margin: 15px auto 50px;
+
+  background-color: #3498db;
+  color: white;
+
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#btn_p:hover {
+  background-color: rgb(88, 153, 153);
+}
