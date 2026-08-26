@@ -62,7 +62,9 @@
   background-image: url("./pizza_bg.jpg");
   background-size: cover;
 }
-#container {
+#container,
+#burger_containers,
+#lasagna_containers {
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -74,12 +76,13 @@
   height: auto;
   padding: 20px;
   position: relative; /* REQUIRED: Keeps the button locked to this box */
-
   padding: 30px;
   border: 4px solid #3498db; /* The border line */
 }
 
-#p_title {
+#l_title,
+#b_title,
+#p_titles {
   text-align: center;
   font-family:
     Rum Raisin,
@@ -89,7 +92,9 @@
   color: Black;
 }
 
-#p_steps {
+#p_steps,
+#b_steps,
+#l_steps {
   text-align: center;
   font-family:
     Rum Raisin,
@@ -99,26 +104,26 @@
   color: Black;
 }
 
-#p_desc {
+#p_desc,
+#b_desc,
+#l_desc {
   text-align: center;
-  font-family:
-    Rum Raisin,
-    Arial,
-    sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 20px;
   color: Black;
 }
 
-#p_ol {
-  font-family:
-    Rum Raisin,
-    Arial,
-    sans-serif;
+#p_ol,
+#b_ol,
+#l_ol {
+  font-family: Arial, sans-serif;
   font-size: 20px;
   color: Black;
 }
 
-#btn_p {
+#btn_p,
+#btn_l,
+#btn_b {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,4 +142,26 @@
 }
 #btn_p:hover {
   background-color: rgb(88, 153, 153);
+}
+
+#lasagna_bg1 {
+  background-image: url("./lasagna_bg.jpg");
+  background-size: cover;
+}
+
+#l_steps,
+#l_steps2,
+#l_steps3 {
+  text-align: center;
+  font-family:
+    Rum Raisin,
+    Arial,
+    sans-serif;
+  font-size: 30px;
+  color: Black;
+}
+
+#burgers_bg {
+  background-image: url("./burger_bg.jpg");
+  background-size: cover;
 }
