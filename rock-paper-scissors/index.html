@@ -3,10 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Rock, Paper and Scissors</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <h1>Hello World</h1>
+    <div id="container">
+      <section class="game">
+        <h1>Rock, Paper and Scissors</h1>
+
+        <div class="players">
+          <!-- Player 1 -->
+          <div id="player1">
+            <h2>Player 1</h2>
+
+            <div class="choice-box">
+              <div id="player1_choice">❔</div>
+            </div>
+          </div>
+
+          <!-- Scoreboard -->
+          <div id="scoreboard">
+            <h2>Scoreboard</h2>
+
+            <div class="score-box">
+              <div id="score">0 - 0</div>
+            </div>
+          </div>
+
+          <!-- Player 2 -->
+          <div id="player2">
+            <h2>Player 2</h2>
+
+            <div class="choice-box">
+              <div id="player2_choice">❔</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Choices -->
+        <section class="choices">
+          <h2>Choices</h2>
+
+          <button id="rock">🪨 Rock</button>
+          <button id="paper">📄 Paper</button>
+          <button id="scissors">✂️ Scissors</button>
+
+          <br />
+
+          <button id="submit">Submit Game</button>
+
+          <button id="reset">Reset Game</button>
+        </section>
+      </section>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
